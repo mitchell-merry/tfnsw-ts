@@ -11,6 +11,10 @@ For testing, we are still running this as a script via `npm run dev`.
 1. `pnpm i` to install dependencies
 1. Get an API key - follow [this guide](https://opendata.transport.nsw.gov.au/user-guide).
    - Make sure it has access to all the datasets you intend to use.
+1. Create a `.env` file at root with the following contents:
+```properties
+TRANSPORT_API_KEY=<<your api key here>>
+```
 
 ### Dev loop:
 1. Make your change to the code.
